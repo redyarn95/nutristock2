@@ -16,7 +16,7 @@ app.use(function(req, res, next) {
   next();
 });
 
-/* Databas뢔랑개??222e */
+/* Database */
 var mysql = require('mysql');
 var conn = mysql.createConnection({
   host     : 'localhost',
